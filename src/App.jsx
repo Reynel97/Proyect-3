@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import axios from 'axios'
 import GetRamdonNumber from './utils/getRamdonNumber'
+import LocationInfo from './components/LocationInfo'
+import ResidentCard from './components/ResidentCard'
 
 function App() {
   
@@ -14,14 +16,28 @@ function App() {
     .catch(error => console.log(error))
   },[])
 
-  console.log(location)
+  
 
   return (
-    <>
+    
      <div>
       <h1>Rick And Morty App</h1>
+      <LocationInfo
+      location={location}
+      />
+      <div>
+        {
+          location?.residents.map(url => (
+            <ResidentCard key={url} url={url}/>
+          ))
+        }
+      </div>
+
      </div>
-    </>
+
+     
+     
+    
   )
 }
 

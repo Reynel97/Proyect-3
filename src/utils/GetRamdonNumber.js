@@ -1,6 +1,6 @@
-const GetRamdonNumber = () => {
+const GetRamdonNumber = (limit) => {
 
-    return Math.floor(Math.random() *126 ) + 1
+    return Math.floor(Math.random() * limit ) + 1
 }
 
 export default GetRamdonNumber
