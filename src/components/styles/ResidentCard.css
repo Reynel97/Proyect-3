@@ -5,6 +5,12 @@
     max-width: 300px;
     border-radius: 0.8em;
     overflow: hidden;
+    transition: transform 200ms ease;
+    gap: 120px;
+}
+
+.resident:hover{
+    transform: scale(1.05) ;
 }
 
 .resident__header{
@@ -42,7 +48,7 @@
 }
 
 .Dead{
-    background-color: red;
+    background-color: rgb(222, 12, 12);
 }
 
 .resident__body{
@@ -80,3 +86,4 @@
 .resident__item-value{
     padding-left: 1em;
 }
+

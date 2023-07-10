@@ -1,0 +1,17 @@
+.resident__container{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+input, button{
+    font-size: 1.5rem;
+ 
+}
+
+.resident__title{
+    color: var(--color-green);
+    height: 10rem;
+    padding: 30px;
+}

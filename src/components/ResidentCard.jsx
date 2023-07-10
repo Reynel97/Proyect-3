@@ -23,7 +23,7 @@ const ResidentCard = ({ url }) => {
       </header>
       <section className="resident__body">
         <h3 className="resident__name">{character?.name}</h3>
-        <hr className="resident__hr" />
+        <hr className="resident__hr" />  
         <ul className="resident__list">
           <li className="resident__item">
             <span className="resident__label">Specie</span>
