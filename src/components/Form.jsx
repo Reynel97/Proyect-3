@@ -17,7 +17,7 @@ const Form = ({setIdLocation }) => {
 
   
   return (
-   <form onSubmit={handSubmit}>
+   <form className="Input" onSubmit={handSubmit}>
     <input id="inputId" style={ { boxShadow: '1px 1px 10px'}} type="text" />
     <button style={ { backgroundColor: 'green' , color: 'white'}} >Search</button>
    </form>

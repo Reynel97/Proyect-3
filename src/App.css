@@ -3,15 +3,23 @@
     gap: 2em;
     flex-wrap: wrap ;
     justify-content: center;
+    padding: 100px;
 }
 
 input, button{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    
+    
+    
  
 }
 
 .resident__title{
     color: var(--color-green);
-    height: 10rem;
-    padding: 30px;
+    text-align: center;
+    padding: 40px;
+  
+    
+    
 }
+

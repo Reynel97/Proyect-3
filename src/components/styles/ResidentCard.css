@@ -6,7 +6,10 @@
     border-radius: 0.8em;
     overflow: hidden;
     transition: transform 200ms ease;
-    gap: 120px;
+    
+
+   
+    
 }
 
 .resident:hover{
@@ -53,6 +56,7 @@
 
 .resident__body{
     padding: 1em 0.8em 2em;
+    
 
 }
 
@@ -86,4 +90,6 @@
 .resident__item-value{
     padding-left: 1em;
 }
+
+
 

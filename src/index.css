@@ -17,6 +17,7 @@ html{
 
 body{
     margin: 0;
+    background-color: #2b3539;
 }
 
 h1 , h2, h3, p, ul, hr{
@@ -32,6 +33,8 @@ ul{
 input, button{
     font-family: inherit;
     border: none;
+   
+    
 }
 
 img{
@@ -41,3 +44,4 @@ img{
 button{
     cursor: pointer;
 }
+
