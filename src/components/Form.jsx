@@ -17,12 +17,12 @@ const Form = ({setIdLocation }) => {
 
   
   return (
-   <form className="Input" onSubmit={handSubmit}>
+   <form className="input" onSubmit={handSubmit}>
     <input id="inputId" style={ { boxShadow: '1px 1px 10px'}} type="text" />
     <button style={ { backgroundColor: 'green' , color: 'white'}} >Search</button>
    </form>
   )
 }
 
-export default Form
+export default Form 
  

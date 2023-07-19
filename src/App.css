@@ -1,25 +1,42 @@
-.resident__container{
-    display: flex;
-    gap: 2em;
-    flex-wrap: wrap ;
-    justify-content: center;
-    padding: 100px;
+.resident__container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
 }
 
-input, button{
-    font-size: 1.4rem;
-    
-    
-    
- 
+input {
+  border-radius: 1rem 0 0 1rem;
 }
 
-.resident__title{
-    color: var(--color-green);
-    text-align: center;
-    padding: 40px;
+button {
+  border-radius: 0 1rem 1rem 0;
+  padding: 0.5rem;
+}
+
+input,
+button {
+  font-size: 1.4rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.resident__title {
+  color: var(--color-green);
+  text-align: center;
+  padding: 40px;
+}
+
+.resident__back {
+  background-image: url(../public/Banner\ ricky\ and\ morthy.png);
+  height: 300px;
+  margin: 0 auto;
+  width: 100%;
   
-    
-    
 }
 

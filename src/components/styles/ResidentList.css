@@ -1,5 +1,4 @@
-
-.resident__info2{
+.resident__info2 {
   padding: 1em;
   background-color: var(--bg-card);
   width: 100%;
@@ -9,31 +8,23 @@
   margin-left: auto;
   margin-right: auto;
   box-shadow: 1px 1px 1px 1px rgb(12, 19, 12);
-
- 
-  
-
 }
 
-.resident__h2{
+.resident__h2 {
   text-align: center;
   color: var(--color-green);
   padding-bottom: 1em;
 }
 
-.resident__list2{
+.resident__list2 {
   display: flex;
   gap: 5em;
   justify-content: center;
-  
-
 }
 
-.resident__list3{
+.resident__list3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8em;
-  
-  
 }
