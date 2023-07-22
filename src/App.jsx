@@ -39,9 +39,9 @@ function App() {
       <h1 className="resident__title">Rick And Morty App</h1>
       <Form setIdLocation={setIdLocation} />
       {isloading ? (
-        <h2>Loading...</h2>
+        <h2 className="resident__loa">Loading...</h2>
       ) : hasError ? (
-        <h1>❌ Hey! you mus provide an id from 1 to 126 😢</h1>
+        <h1 className="resident__hey">❌ Hey! you mus provide an id from 1 to 126 😢</h1>
       ) : (
         <>
           <LocationInfo location={location} />

@@ -42,3 +42,14 @@ form {
   
 }
 
+.resident__loa{
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.resident__hey{
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+}
