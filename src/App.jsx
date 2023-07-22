@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
-import "./App.css";
 import axios from "axios";
-import GetRamdonNumber from "./utils/getRamdonNumber";
+import GetRandomNumber from "./utils/GetRandomNumber";
 import LocationInfo from "./components/LocationInfo";
 import ResidentCard from "./components/ResidentCard";
 import Form from "./components/Form";
+import "./App.css";
 
 function App() {
   const [location, setLocation] = useState();
-  const [idLocation, setIdLocation] = useState(GetRamdonNumber(126));
+  const [idLocation, setIdLocation] = useState(GetRandomNumber(126));
   const [hasError, sethasError] = useState(false);
   const [isloading, setIsloading] = useState(true);
 

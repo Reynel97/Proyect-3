@@ -1,4 +1,4 @@
-import GetRamdonNumber from "../utils/getRamdonNumber"
+import GetRamdonNumber from "../utils/GetRandomNumber"
 
 
 const Form = ({setIdLocation }) => {
