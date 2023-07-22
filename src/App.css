@@ -37,6 +37,8 @@ form {
   height: 300px;
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 1em;
+  position: relative;
   
 }
 
